@@ -23,3 +23,45 @@ $("#answer6").click(function() {
 $("#answer7").click(function() {
     alert("They planet");
 }); 
+$("#answer8").click(function() {
+    alert("Between us, something smells");
+});
+
+$("#submit").click(function(){
+ var pianoKeys = "36";
+ if ($("#keys").val() === pianoKeys) {
+ $("p").html("Correct!");
+ } else {
+ $("p").html("Incorrect");
+ }
+});
+
+$("#submit2").click(function(){
+ var babyRabbit= "Kitten";
+ if ($("#rabbit").val() === babyRabbit) {
+ $("p2").html("Correct!");
+ } else {
+ $("p2").html("Incorrect");
+ }
+});
+  
+$("#submit3").click(function(){
+ var largeCity= "Tokyo";
+ if ($("#city").val() === largeCity) {
+ $("p3").html("Correct!");
+ } else {
+ $("p3").html("Incorrect");
+ }
+});
+
+$("#submit4").click(function(){
+ var uglyDuck= "Hans Christian Andersen";
+ if ($("#duck").val() === uglyDuck) {
+ $("p4").html("Correct!");
+ } else {
+ $("p4").html("Incorrect");
+ }
+});
+
+
+
